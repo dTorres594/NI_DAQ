@@ -41,6 +41,7 @@
 				<Item Name="Create AO channel Argument--cluster.ctl" Type="VI" URL="../Create AO channel Argument--cluster.ctl"/>
 				<Item Name="Write AO Argument--cluster.ctl" Type="VI" URL="../Write AO Argument--cluster.ctl"/>
 				<Item Name="Validate connection Argument--cluster.ctl" Type="VI" URL="../Validate connection Argument--cluster.ctl"/>
+				<Item Name="Validate connection (Reply Payload)--cluster.ctl" Type="VI" URL="../Validate connection (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -48,6 +49,7 @@
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
 				<Item Name="Data acquired Argument--cluster.ctl" Type="VI" URL="../Data acquired Argument--cluster.ctl"/>
 				<Item Name="Device connected Argument--cluster.ctl" Type="VI" URL="../Device connected Argument--cluster.ctl"/>
+				<Item Name="Connection failed Argument--cluster.ctl" Type="VI" URL="../Connection failed Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -90,6 +92,7 @@
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="Data acquired.vi" Type="VI" URL="../Data acquired.vi"/>
 		<Item Name="Device connected.vi" Type="VI" URL="../Device connected.vi"/>
+		<Item Name="Connection failed.vi" Type="VI" URL="../Connection failed.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
