@@ -40,12 +40,14 @@
 				<Item Name="Read AI (Reply Payload)--cluster.ctl" Type="VI" URL="../Read AI (Reply Payload)--cluster.ctl"/>
 				<Item Name="Create AO channel Argument--cluster.ctl" Type="VI" URL="../Create AO channel Argument--cluster.ctl"/>
 				<Item Name="Write AO Argument--cluster.ctl" Type="VI" URL="../Write AO Argument--cluster.ctl"/>
+				<Item Name="Validate connection Argument--cluster.ctl" Type="VI" URL="../Validate connection Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
 				<Item Name="Data acquired Argument--cluster.ctl" Type="VI" URL="../Data acquired Argument--cluster.ctl"/>
+				<Item Name="Device connected Argument--cluster.ctl" Type="VI" URL="../Device connected Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -68,6 +70,7 @@
 			<Item Name="Read AI.vi" Type="VI" URL="../Read AI.vi"/>
 			<Item Name="Create AO channel.vi" Type="VI" URL="../Create AO channel.vi"/>
 			<Item Name="Write AO.vi" Type="VI" URL="../Write AO.vi"/>
+			<Item Name="Validate connection.vi" Type="VI" URL="../Validate connection.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -86,6 +89,7 @@
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="Data acquired.vi" Type="VI" URL="../Data acquired.vi"/>
+		<Item Name="Device connected.vi" Type="VI" URL="../Device connected.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
