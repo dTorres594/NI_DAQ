@@ -2,7 +2,6 @@
 <Library LVVersion="20008000">
 	<Property Name="NI.Lib.Description" Type="Str">Management of connection, aquisition and signal generation from NI DAQ devices.</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)W!!!*Q(C=\&gt;7^53."%)&lt;B&lt;[]Q=*8"F6,I&amp;/4!?61JB@;&amp;)X&gt;.'6BYH9*35!JNYCI&amp;J&lt;#]-WI161DEQ.86&amp;&lt;0-MPLG\W&amp;WN5C^8%N8GC[6V;@FV(\M?DK^;T`_4#^8:^N0JQ`;WSL4[OT]J[GH=_-`]F]I_CE`Z@]OY]5PQ&lt;&gt;`$Q;V&amp;R%VK5&amp;VKKEN/S6ZEC&gt;ZEC&gt;ZEA&gt;ZE!&gt;ZE!&gt;ZE$OZETOZETOZEROZE2OZE2OZE@?$8/1C&amp;TGE:0&amp;EI743:)+E-R1FJ]34?"*0YO'D%E`C34S**`(129EH]33?R*.Y'+&lt;%EXA34_**0%T6*&gt;E0=DS*B_E6?!*0Y!E]A9=F&amp;8A#1,"9-(%Q#1Q&amp;D=&amp;&amp;Y!E]A9&gt;,":\!%XA#4_#B79%H]!3?Q".Y'.*X*&lt;KG(?2YG%;/R`%Y(M@D?*B;DM@R/"\(YXB94I\(]4A):U&amp;H=ABS"DE&gt;H!_/R`(Q3Y\(]4A?R_.Y;/JXS0P/.%U\S0%9(M.D?!S0Y7%+'2\$9XA-D_&amp;B7BE?QW.Y$)`B93E:(M.D?!S)M3D,SZD-''BU-A,$QU^`7KT@J?A3[Y&gt;5$[`KI61^&lt;+K(306QK'[[[G;K&lt;J*K]V7&lt;KNIMV3;I`DA67I62,;);X$LKQ(F0X6'XV!VV46V3&amp;^1Z&gt;&gt;;'@H((Q_'A`8[PX7[H\8;LT7;D^8KNZ8+JR7+B_8SOW7TW_BLYT@([1DC_FU;OR^8$-.Y]$O0NX4$_?2L'_^OBZ8`B``-`]'\5,\V&gt;ATV["K%M?J!!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -22,8 +21,6 @@
 				<Item Name="Set device ID Argument--cluster.ctl" Type="VI" URL="../Set device ID Argument--cluster.ctl"/>
 				<Item Name="Get channel list Argument--cluster.ctl" Type="VI" URL="../Get channel list Argument--cluster.ctl"/>
 				<Item Name="Get channel list (Reply Payload)--cluster.ctl" Type="VI" URL="../Get channel list (Reply Payload)--cluster.ctl"/>
-				<Item Name="Create DO task Argument--cluster.ctl" Type="VI" URL="../Create DO task Argument--cluster.ctl"/>
-				<Item Name="Create DO task (Reply Payload)--cluster.ctl" Type="VI" URL="../Create DO task (Reply Payload)--cluster.ctl"/>
 				<Item Name="Start task Argument--cluster.ctl" Type="VI" URL="../Start task Argument--cluster.ctl"/>
 				<Item Name="Stop task Argument--cluster.ctl" Type="VI" URL="../Stop task Argument--cluster.ctl"/>
 				<Item Name="Write DO Argument--cluster.ctl" Type="VI" URL="../Write DO Argument--cluster.ctl"/>
@@ -44,6 +41,7 @@
 				<Item Name="Validate connection (Reply Payload)--cluster.ctl" Type="VI" URL="../Validate connection (Reply Payload)--cluster.ctl"/>
 				<Item Name="Start continous acquisition Argument--cluster.ctl" Type="VI" URL="../Start continous acquisition Argument--cluster.ctl"/>
 				<Item Name="Stop continuous acquisition Argument--cluster.ctl" Type="VI" URL="../Stop continuous acquisition Argument--cluster.ctl"/>
+				<Item Name="Create DO channel Argument--cluster.ctl" Type="VI" URL="../Create DO channel Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -62,7 +60,6 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Set device ID.vi" Type="VI" URL="../Set device ID.vi"/>
 			<Item Name="Get channel list.vi" Type="VI" URL="../Get channel list.vi"/>
-			<Item Name="Create DO task.vi" Type="VI" URL="../Create DO task.vi"/>
 			<Item Name="Start task.vi" Type="VI" URL="../Start task.vi"/>
 			<Item Name="Stop task.vi" Type="VI" URL="../Stop task.vi"/>
 			<Item Name="Write DO.vi" Type="VI" URL="../Write DO.vi"/>
@@ -78,6 +75,7 @@
 			<Item Name="Validate connection.vi" Type="VI" URL="../Validate connection.vi"/>
 			<Item Name="Start continous acquisition.vi" Type="VI" URL="../Start continous acquisition.vi"/>
 			<Item Name="Stop continuous acquisition.vi" Type="VI" URL="../Stop continuous acquisition.vi"/>
+			<Item Name="Create DO channel.vi" Type="VI" URL="../Create DO channel.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
