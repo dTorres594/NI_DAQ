@@ -162,6 +162,10 @@
 		<Item Name="Wake HL.vi" Type="VI" URL="../Support/Wake HL.vi"/>
 		<Item Name="Sleep HL -- subVI.vi" Type="VI" URL="../Support/Sleep HL -- subVI.vi"/>
 	</Item>
+	<Item Name="Controls" Type="Folder"/>
+	<Item Name="Constants" Type="Folder">
+		<Item Name="Channel list header ---constant.vi" Type="VI" URL="../Support/Channel list header ---constant.vi"/>
+	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
