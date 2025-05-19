@@ -42,6 +42,7 @@
 				<Item Name="Start continous acquisition Argument--cluster.ctl" Type="VI" URL="../Start continous acquisition Argument--cluster.ctl"/>
 				<Item Name="Stop continuous acquisition Argument--cluster.ctl" Type="VI" URL="../Stop continuous acquisition Argument--cluster.ctl"/>
 				<Item Name="Create DO channel Argument--cluster.ctl" Type="VI" URL="../Create DO channel Argument--cluster.ctl"/>
+				<Item Name="Create CI channel Argument--cluster.ctl" Type="VI" URL="../Create CI channel Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -76,6 +77,7 @@
 			<Item Name="Start continous acquisition.vi" Type="VI" URL="../Start continous acquisition.vi"/>
 			<Item Name="Stop continuous acquisition.vi" Type="VI" URL="../Stop continuous acquisition.vi"/>
 			<Item Name="Create DO channel.vi" Type="VI" URL="../Create DO channel.vi"/>
+			<Item Name="Create CI channel.vi" Type="VI" URL="../Create CI channel.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
