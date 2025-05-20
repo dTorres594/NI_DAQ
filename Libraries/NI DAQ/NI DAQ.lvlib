@@ -43,6 +43,8 @@
 				<Item Name="Stop continuous acquisition Argument--cluster.ctl" Type="VI" URL="../Stop continuous acquisition Argument--cluster.ctl"/>
 				<Item Name="Create DO channel Argument--cluster.ctl" Type="VI" URL="../Create DO channel Argument--cluster.ctl"/>
 				<Item Name="Create CI channel Argument--cluster.ctl" Type="VI" URL="../Create CI channel Argument--cluster.ctl"/>
+				<Item Name="Read CI Argument--cluster.ctl" Type="VI" URL="../Read CI Argument--cluster.ctl"/>
+				<Item Name="Read CI (Reply Payload)--cluster.ctl" Type="VI" URL="../Read CI (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -52,6 +54,7 @@
 				<Item Name="Device connected Argument--cluster.ctl" Type="VI" URL="../Device connected Argument--cluster.ctl"/>
 				<Item Name="Connection failed Argument--cluster.ctl" Type="VI" URL="../Connection failed Argument--cluster.ctl"/>
 				<Item Name="Analog data acquired Argument--cluster.ctl" Type="VI" URL="../Analog data acquired Argument--cluster.ctl"/>
+				<Item Name="Counter data acquired Argument--cluster.ctl" Type="VI" URL="../Counter data acquired Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -78,6 +81,7 @@
 			<Item Name="Stop continuous acquisition.vi" Type="VI" URL="../Stop continuous acquisition.vi"/>
 			<Item Name="Create DO channel.vi" Type="VI" URL="../Create DO channel.vi"/>
 			<Item Name="Create CI channel.vi" Type="VI" URL="../Create CI channel.vi"/>
+			<Item Name="Read CI.vi" Type="VI" URL="../Read CI.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -99,6 +103,7 @@
 		<Item Name="Device connected.vi" Type="VI" URL="../Device connected.vi"/>
 		<Item Name="Connection failed.vi" Type="VI" URL="../Connection failed.vi"/>
 		<Item Name="Analog data acquired.vi" Type="VI" URL="../Analog data acquired.vi"/>
+		<Item Name="Counter data acquired.vi" Type="VI" URL="../Counter data acquired.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -156,15 +161,16 @@
 	</Item>
 	<Item Name="Support" Type="Folder">
 		<Item Name="Get Channels.vi" Type="VI" URL="../Get Channels.vi"/>
-		<Item Name="Continuous aquisition params.ctl" Type="VI" URL="../Support/Continuous aquisition params.ctl"/>
-		<Item Name="Task list.ctl" Type="VI" URL="../Support/Task list.ctl"/>
-		<Item Name="AI config parameters--cluster.ctl" Type="VI" URL="../AI config parameters--cluster.ctl"/>
 		<Item Name="Create user events.vi" Type="VI" URL="../Support/Create user events.vi"/>
 		<Item Name="Destroy user events.vi" Type="VI" URL="../Support/Destroy user events.vi"/>
 		<Item Name="Wake HL.vi" Type="VI" URL="../Support/Wake HL.vi"/>
 		<Item Name="Sleep HL -- subVI.vi" Type="VI" URL="../Support/Sleep HL -- subVI.vi"/>
 	</Item>
-	<Item Name="Controls" Type="Folder"/>
+	<Item Name="Controls" Type="Folder">
+		<Item Name="Continuous aquisition params.ctl" Type="VI" URL="../Support/Continuous aquisition params.ctl"/>
+		<Item Name="Task list.ctl" Type="VI" URL="../Support/Task list.ctl"/>
+		<Item Name="AI config parameters--cluster.ctl" Type="VI" URL="../AI config parameters--cluster.ctl"/>
+	</Item>
 	<Item Name="Constants" Type="Folder">
 		<Item Name="Channel list header ---constant.vi" Type="VI" URL="../Support/Channel list header ---constant.vi"/>
 	</Item>
