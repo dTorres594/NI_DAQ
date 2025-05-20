@@ -18,7 +18,7 @@
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Get Module Execution Status Argument--cluster.ctl" Type="VI" URL="../Get Module Execution Status Argument--cluster.ctl"/>
-				<Item Name="Set device ID Argument--cluster.ctl" Type="VI" URL="../Set device ID Argument--cluster.ctl"/>
+				<Item Name="Set device name Argument--cluster.ctl" Type="VI" URL="../Set device name Argument--cluster.ctl"/>
 				<Item Name="Get channel list Argument--cluster.ctl" Type="VI" URL="../Get channel list Argument--cluster.ctl"/>
 				<Item Name="Get channel list (Reply Payload)--cluster.ctl" Type="VI" URL="../Get channel list (Reply Payload)--cluster.ctl"/>
 				<Item Name="Start task Argument--cluster.ctl" Type="VI" URL="../Start task Argument--cluster.ctl"/>
@@ -45,8 +45,8 @@
 				<Item Name="Create CI channel Argument--cluster.ctl" Type="VI" URL="../Create CI channel Argument--cluster.ctl"/>
 				<Item Name="Read CI Argument--cluster.ctl" Type="VI" URL="../Read CI Argument--cluster.ctl"/>
 				<Item Name="Read CI (Reply Payload)--cluster.ctl" Type="VI" URL="../Read CI (Reply Payload)--cluster.ctl"/>
-				<Item Name="Get device ID Argument--cluster.ctl" Type="VI" URL="../Get device ID Argument--cluster.ctl"/>
-				<Item Name="Get device ID (Reply Payload)--cluster.ctl" Type="VI" URL="../Get device ID (Reply Payload)--cluster.ctl"/>
+				<Item Name="Get device model Argument--cluster.ctl" Type="VI" URL="../Get device model Argument--cluster.ctl"/>
+				<Item Name="Get device model (Reply Payload)--cluster.ctl" Type="VI" URL="../Get device model (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -64,7 +64,7 @@
 			<Item Name="Hide Panel.vi" Type="VI" URL="../Hide Panel.vi"/>
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
-			<Item Name="Set device ID.vi" Type="VI" URL="../Set device ID.vi"/>
+			<Item Name="Set device name.vi" Type="VI" URL="../Set device name.vi"/>
 			<Item Name="Get channel list.vi" Type="VI" URL="../Get channel list.vi"/>
 			<Item Name="Start task.vi" Type="VI" URL="../Start task.vi"/>
 			<Item Name="Stop task.vi" Type="VI" URL="../Stop task.vi"/>
@@ -84,7 +84,7 @@
 			<Item Name="Create DO channel.vi" Type="VI" URL="../Create DO channel.vi"/>
 			<Item Name="Create CI channel.vi" Type="VI" URL="../Create CI channel.vi"/>
 			<Item Name="Read CI.vi" Type="VI" URL="../Read CI.vi"/>
-			<Item Name="Get device ID.vi" Type="VI" URL="../Get device ID.vi"/>
+			<Item Name="Get device model.vi" Type="VI" URL="../Get device model.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
