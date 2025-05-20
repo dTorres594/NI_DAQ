@@ -47,6 +47,8 @@
 				<Item Name="Read CI (Reply Payload)--cluster.ctl" Type="VI" URL="../Read CI (Reply Payload)--cluster.ctl"/>
 				<Item Name="Get device model Argument--cluster.ctl" Type="VI" URL="../Get device model Argument--cluster.ctl"/>
 				<Item Name="Get device model (Reply Payload)--cluster.ctl" Type="VI" URL="../Get device model (Reply Payload)--cluster.ctl"/>
+				<Item Name="Get device name Argument--cluster.ctl" Type="VI" URL="../Get device name Argument--cluster.ctl"/>
+				<Item Name="Get device name (Reply Payload)--cluster.ctl" Type="VI" URL="../Get device name (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -85,6 +87,7 @@
 			<Item Name="Create CI channel.vi" Type="VI" URL="../Create CI channel.vi"/>
 			<Item Name="Read CI.vi" Type="VI" URL="../Read CI.vi"/>
 			<Item Name="Get device model.vi" Type="VI" URL="../Get device model.vi"/>
+			<Item Name="Get device name.vi" Type="VI" URL="../Get device name.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
