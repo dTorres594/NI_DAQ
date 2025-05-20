@@ -169,7 +169,8 @@
 	<Item Name="Controls" Type="Folder">
 		<Item Name="Continuous aquisition params.ctl" Type="VI" URL="../Support/Continuous aquisition params.ctl"/>
 		<Item Name="Task list.ctl" Type="VI" URL="../Support/Task list.ctl"/>
-		<Item Name="AI config parameters--cluster.ctl" Type="VI" URL="../AI config parameters--cluster.ctl"/>
+		<Item Name="AI config parameters--cluster.ctl" Type="VI" URL="../Controls/AI config parameters--cluster.ctl"/>
+		<Item Name="CI config parameters--cluster.ctl" Type="VI" URL="../Controls/CI config parameters--cluster.ctl"/>
 	</Item>
 	<Item Name="Constants" Type="Folder">
 		<Item Name="Channel list header ---constant.vi" Type="VI" URL="../Support/Channel list header ---constant.vi"/>
