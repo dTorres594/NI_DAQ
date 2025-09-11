@@ -52,6 +52,10 @@
 				<Item Name="Create TC channel Argument--cluster.ctl" Type="VI" URL="../Create TC channel Argument--cluster.ctl"/>
 				<Item Name="Read TC Argument--cluster.ctl" Type="VI" URL="../Read TC Argument--cluster.ctl"/>
 				<Item Name="Read TC (Reply Payload)--cluster.ctl" Type="VI" URL="../Read TC (Reply Payload)--cluster.ctl"/>
+				<Item Name="Start Continuous DI Argument--cluster.ctl" Type="VI" URL="../Start Continuous DI Argument--cluster.ctl"/>
+				<Item Name="Stop continuous DI Argument--cluster.ctl" Type="VI" URL="../Stop continuous DI Argument--cluster.ctl"/>
+				<Item Name="Start continuous AI Argument--cluster.ctl" Type="VI" URL="../Start continuous AI Argument--cluster.ctl"/>
+				<Item Name="Stop continuous AI Argument--cluster.ctl" Type="VI" URL="../Stop continuous AI Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -94,6 +98,10 @@
 			<Item Name="Get device name.vi" Type="VI" URL="../Get device name.vi"/>
 			<Item Name="Create TC channel.vi" Type="VI" URL="../Create TC channel.vi"/>
 			<Item Name="Read TC.vi" Type="VI" URL="../Read TC.vi"/>
+			<Item Name="Start Continuous DI.vi" Type="VI" URL="../Start Continuous DI.vi"/>
+			<Item Name="Stop continuous DI.vi" Type="VI" URL="../Stop continuous DI.vi"/>
+			<Item Name="Start continuous AI.vi" Type="VI" URL="../Start continuous AI.vi"/>
+			<Item Name="Stop continuous AI.vi" Type="VI" URL="../Stop continuous AI.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -120,6 +128,25 @@
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Local Instance Requests" Type="Folder">
+			<Item Name="Loc Inst Arguments" Type="Folder">
+				<Item Name="Wake DI HL Argument--cluster.ctl" Type="VI" URL="../Wake DI HL Argument--cluster.ctl"/>
+			</Item>
+			<Item Name="Local Instance Events SEQ.lvlib" Type="Library" URL="../Local Instance Events SEQ/Local Instance Events SEQ.lvlib"/>
+			<Item Name="Local Instance Request Events--cluster.ctl" Type="VI" URL="../Local Instance Request Events--cluster.ctl"/>
+			<Item Name="Destroy Local Instance Events.vi" Type="VI" URL="../Destroy Local Instance Events.vi"/>
+			<Item Name="Wake DI HL.vi" Type="VI" URL="../Wake DI HL.vi"/>
+		</Item>
+		<Item Name="Private Requests" Type="Folder">
+			<Item Name="Priv Req Arguments" Type="Folder">
+				<Item Name="Sleep DI HL Argument--cluster.ctl" Type="VI" URL="../Sleep DI HL Argument--cluster.ctl"/>
+				<Item Name="Wake AI HL Argument--cluster.ctl" Type="VI" URL="../Wake AI HL Argument--cluster.ctl"/>
+				<Item Name="Sleep AI HL Argument--cluster.ctl" Type="VI" URL="../Sleep AI HL Argument--cluster.ctl"/>
+			</Item>
+			<Item Name="Sleep DI HL.vi" Type="VI" URL="../Sleep DI HL.vi"/>
+			<Item Name="Wake AI HL.vi" Type="VI" URL="../Wake AI HL.vi"/>
+			<Item Name="Sleep AI HL.vi" Type="VI" URL="../Sleep AI HL.vi"/>
+		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
 		<Item Name="Destroy Request Events.vi" Type="VI" URL="../Destroy Request Events.vi"/>
