@@ -11,3 +11,10 @@
 12:56:44.377 p. m. 11/09/2025	 New Event added to: NI DAQ.lvlib	 Type: Cloneable	 Name:Wake AI HL	 Type:Request	 Scope:Private Request	 Description: Request to wake HL for continuous acquisition from analog channel.
 01:04:26.249 p. m. 11/09/2025	 New Event added to: NI DAQ.lvlib	 Type: Cloneable	 Name:Stop continuous AI	 Type:Request	 Scope:Public Request	 Description: Request to stop acquiring continuously from analog input channel.
 01:06:37.140 p. m. 11/09/2025	 New Event added to: NI DAQ.lvlib	 Type: Cloneable	 Name:Sleep AI HL	 Type:Request	 Scope:Private Request	 Description: Private request to set timeout of Continuous AI to infinite.
+01:31:58.162 p. m. 11/09/2025	 NI DAQ.lvlib	 Event: "Start Continuous DI"	 Duplicated to: NI DAQ.lvlib	 with the name: "Start continuous TC"
+01:52:25.573 p. m. 11/09/2025	 Helper Loop added to: "NI DAQ.lvlib:"	 named: "Continuous TC"
+01:53:55.259 p. m. 11/09/2025	 New Event added to: NI DAQ.lvlib	 Type: Cloneable	 Name:Wake TC HL	 Type:Request	 Scope:Private Request	 Description: Private request to start continuous acquisition from thermocouple channel.
+02:01:34.391 p. m. 11/09/2025	 New Event added to: NI DAQ.lvlib	 Type: Cloneable	 Name:Stop continuous TC	 Type:Request	 Scope:Public Request	 Description: Request to stop continuous acquisition from thermocouple channel.
+02:03:55.927 p. m. 11/09/2025	 Event:Stop continuous TC	 Type: Request	 Removed from: NI DAQ.lvlib	 TypeCloneable
+02:06:14.259 p. m. 11/09/2025	 New Event added to: NI DAQ.lvlib	 Type: Cloneable	 Name:Stop continuous TC	 Type:Request	 Scope:Public Request	 Description: Request to stop continuous acquisition from thermocouple channel.
+02:07:52.857 p. m. 11/09/2025	 New Event added to: NI DAQ.lvlib	 Type: Cloneable	 Name:Sleep TC HL	 Type:Request	 Scope:Private Request	 Description: Request to set the timeout of the TC HL to infinite.

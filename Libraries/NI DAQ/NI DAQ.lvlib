@@ -56,6 +56,8 @@
 				<Item Name="Stop continuous DI Argument--cluster.ctl" Type="VI" URL="../Stop continuous DI Argument--cluster.ctl"/>
 				<Item Name="Start continuous AI Argument--cluster.ctl" Type="VI" URL="../Start continuous AI Argument--cluster.ctl"/>
 				<Item Name="Stop continuous AI Argument--cluster.ctl" Type="VI" URL="../Stop continuous AI Argument--cluster.ctl"/>
+				<Item Name="Start continuous TC Argument--cluster.ctl" Type="VI" URL="../Start continuous TC Argument--cluster.ctl"/>
+				<Item Name="Stop continuous TC Argument--cluster.ctl" Type="VI" URL="../Stop continuous TC Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -102,6 +104,8 @@
 			<Item Name="Stop continuous DI.vi" Type="VI" URL="../Stop continuous DI.vi"/>
 			<Item Name="Start continuous AI.vi" Type="VI" URL="../Start continuous AI.vi"/>
 			<Item Name="Stop continuous AI.vi" Type="VI" URL="../Stop continuous AI.vi"/>
+			<Item Name="Start continuous TC.vi" Type="VI" URL="../Start continuous TC.vi"/>
+			<Item Name="Stop continuous TC.vi" Type="VI" URL="../Stop continuous TC.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -142,10 +146,14 @@
 				<Item Name="Sleep DI HL Argument--cluster.ctl" Type="VI" URL="../Sleep DI HL Argument--cluster.ctl"/>
 				<Item Name="Wake AI HL Argument--cluster.ctl" Type="VI" URL="../Wake AI HL Argument--cluster.ctl"/>
 				<Item Name="Sleep AI HL Argument--cluster.ctl" Type="VI" URL="../Sleep AI HL Argument--cluster.ctl"/>
+				<Item Name="Wake TC HL Argument--cluster.ctl" Type="VI" URL="../Wake TC HL Argument--cluster.ctl"/>
+				<Item Name="Sleep TC HL Argument--cluster.ctl" Type="VI" URL="../Sleep TC HL Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Sleep DI HL.vi" Type="VI" URL="../Sleep DI HL.vi"/>
 			<Item Name="Wake AI HL.vi" Type="VI" URL="../Wake AI HL.vi"/>
 			<Item Name="Sleep AI HL.vi" Type="VI" URL="../Sleep AI HL.vi"/>
+			<Item Name="Wake TC HL.vi" Type="VI" URL="../Wake TC HL.vi"/>
+			<Item Name="Sleep TC HL.vi" Type="VI" URL="../Sleep TC HL.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
