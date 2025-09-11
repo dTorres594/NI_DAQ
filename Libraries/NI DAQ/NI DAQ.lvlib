@@ -49,6 +49,9 @@
 				<Item Name="Get device model (Reply Payload)--cluster.ctl" Type="VI" URL="../Get device model (Reply Payload)--cluster.ctl"/>
 				<Item Name="Get device name Argument--cluster.ctl" Type="VI" URL="../Get device name Argument--cluster.ctl"/>
 				<Item Name="Get device name (Reply Payload)--cluster.ctl" Type="VI" URL="../Get device name (Reply Payload)--cluster.ctl"/>
+				<Item Name="Create TC channel Argument--cluster.ctl" Type="VI" URL="../Create TC channel Argument--cluster.ctl"/>
+				<Item Name="Read TC Argument--cluster.ctl" Type="VI" URL="../Read TC Argument--cluster.ctl"/>
+				<Item Name="Read TC (Reply Payload)--cluster.ctl" Type="VI" URL="../Read TC (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -59,6 +62,7 @@
 				<Item Name="Connection failed Argument--cluster.ctl" Type="VI" URL="../Connection failed Argument--cluster.ctl"/>
 				<Item Name="Analog data acquired Argument--cluster.ctl" Type="VI" URL="../Analog data acquired Argument--cluster.ctl"/>
 				<Item Name="Counter data acquired Argument--cluster.ctl" Type="VI" URL="../Counter data acquired Argument--cluster.ctl"/>
+				<Item Name="Temperature data acquired Argument--cluster.ctl" Type="VI" URL="../Temperature data acquired Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -88,6 +92,8 @@
 			<Item Name="Read CI.vi" Type="VI" URL="../Read CI.vi"/>
 			<Item Name="Get device model.vi" Type="VI" URL="../Get device model.vi"/>
 			<Item Name="Get device name.vi" Type="VI" URL="../Get device name.vi"/>
+			<Item Name="Create TC channel.vi" Type="VI" URL="../Create TC channel.vi"/>
+			<Item Name="Read TC.vi" Type="VI" URL="../Read TC.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -110,6 +116,7 @@
 		<Item Name="Connection failed.vi" Type="VI" URL="../Connection failed.vi"/>
 		<Item Name="Analog data acquired.vi" Type="VI" URL="../Analog data acquired.vi"/>
 		<Item Name="Counter data acquired.vi" Type="VI" URL="../Counter data acquired.vi"/>
+		<Item Name="Temperature data acquired.vi" Type="VI" URL="../Temperature data acquired.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
