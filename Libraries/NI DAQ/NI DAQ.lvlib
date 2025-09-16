@@ -58,6 +58,7 @@
 				<Item Name="Stop continuous AI Argument--cluster.ctl" Type="VI" URL="../Stop continuous AI Argument--cluster.ctl"/>
 				<Item Name="Start continuous TC Argument--cluster.ctl" Type="VI" URL="../Start continuous TC Argument--cluster.ctl"/>
 				<Item Name="Stop continuous TC Argument--cluster.ctl" Type="VI" URL="../Stop continuous TC Argument--cluster.ctl"/>
+				<Item Name="Clear task Argument--cluster.ctl" Type="VI" URL="../Clear task Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -106,6 +107,7 @@
 			<Item Name="Stop continuous AI.vi" Type="VI" URL="../Stop continuous AI.vi"/>
 			<Item Name="Start continuous TC.vi" Type="VI" URL="../Start continuous TC.vi"/>
 			<Item Name="Stop continuous TC.vi" Type="VI" URL="../Stop continuous TC.vi"/>
+			<Item Name="Clear task.vi" Type="VI" URL="../Clear task.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>

@@ -18,3 +18,4 @@
 02:03:55.927 p. m. 11/09/2025	 Event:Stop continuous TC	 Type: Request	 Removed from: NI DAQ.lvlib	 TypeCloneable
 02:06:14.259 p. m. 11/09/2025	 New Event added to: NI DAQ.lvlib	 Type: Cloneable	 Name:Stop continuous TC	 Type:Request	 Scope:Public Request	 Description: Request to stop continuous acquisition from thermocouple channel.
 02:07:52.857 p. m. 11/09/2025	 New Event added to: NI DAQ.lvlib	 Type: Cloneable	 Name:Sleep TC HL	 Type:Request	 Scope:Private Request	 Description: Request to set the timeout of the TC HL to infinite.
+07:02:59.824 p. m. 15/09/2025	 NI DAQ.lvlib	 Event: "Stop task"	 Duplicated to: NI DAQ.lvlib	 with the name: "Clear task"
